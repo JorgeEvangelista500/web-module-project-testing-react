@@ -5,7 +5,6 @@ import userEvent from '@testing-library/user-event';
 
 import Show from './../Show';
 import Episode from '../Episode';
-import { query } from 'express';
 
 const testShow = {
     name: 'string',
